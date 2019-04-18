@@ -23,7 +23,7 @@ HTML과 CSS로 레이아웃을 구성하고 JavaScript와 jQuery를 이용해 �
 <li class="aside-listText"><p><a href="javascript:workChange(1);">역할 카드게임 'WANTED'</a></p></li>
 <li class="aside-listText"><p><a href="javascript:workChange(2);">GPS를 활용한 운동관리 어플리케이션</a></p></li>
 ```
-```
+```javascript
 // 선택한 작품에 맞는 작품 설명 페이지 호출 함수
 function workChange(idx) {
 	var strHTML = "";
@@ -52,7 +52,7 @@ function workChange(idx) {
  ```
  
 ***php session을 이용한 로그인 관리***
-```
+```php
 <?php
 session_start(); //세션변수 사용전에 session_start()를 사용해야 한다.
 
