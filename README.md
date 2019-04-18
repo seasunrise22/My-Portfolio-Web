@@ -32,23 +32,23 @@ function workChange(idx) {
     switch (idx) 
     {
     	// WANTED
-		case 1:
-		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
-		strHTML += "<img src='images/work_wanted01.png'>";
-		strHTML += "<img src='images/work_wanted02.png'>";
-		...
-		activitySection.innerHTML = strHTML;
-		break;
+    	case 1:
+    	strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
+    	strHTML += "<img src='images/work_wanted01.png'>";
+    	strHTML += "<img src='images/work_wanted02.png'>";
+    	...
+    	activitySection.innerHTML = strHTML;
+    	break;
 		
-		// 운동관리
-		case 2:
-		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
-		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
-		strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
-		...
-		activitySection.innerHTML = strHTML;
-		break;
-		...
+    	// 운동관리
+    	case 2:
+    	strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
+    	strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
+    	strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
+    	...
+    	activitySection.innerHTML = strHTML;
+    	break;
+    	...
  ```
  
 ***php session을 이용한 로그인 관리***
@@ -58,20 +58,20 @@ session_start(); //세션변수 사용전에 session_start()를 사용해야 한
 
 if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
 <form action="./account/login_ok.php" method="post">				
-<table style='display: inline-block;''> <!-- 아이디, 비밀번호 입력 테이블 -->
-		<tr>
-			<td><input type='text' placeholder='아이디' name='login_id' maxlength='20' style='width: 98%' required></td>
-			<td><input type='password' placeholder='비밀번호' name='login_pw' maxlength='20' style='width: 98%' required></td>
-			<td><button type='submit'>로그인</button></td>
-			<td><button type='button' onclick='location.href="./account/join.php"'>회원가입</button></td>
-		</tr>
-	</table>
+    <table style='display: inline-block;''> <!-- 아이디, 비밀번호 입력 테이블 -->
+	    <tr>
+		    <td><input type='text' placeholder='아이디' name='login_id' maxlength='20' style='width: 98%' required></td>
+		    <td><input type='password' placeholder='비밀번호' name='login_pw' maxlength='20' style='width: 98%' required></td>
+		    <td><button type='submit'>로그인</button></td>
+		    <td><button type='button' onclick='location.href="./account/join.php"'>회원가입</button></td>
+	    </tr>
+    </table>    
 </form>
 <?php } else {
-	$user_id = $_SESSION['login_id'];
-  $user_nick = $_SESSION['login_nick'];
-  echo "<p><strong>$user_nick</strong>($user_id) 님 로그인 되셨습니다.";
-  echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
+    $user_id = $_SESSION['login_id'];
+    $user_nick = $_SESSION['login_nick'];
+    echo "<p><strong>$user_nick</strong>($user_id) 님 로그인 되셨습니다.";
+    echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
 }
 ?>
 ```
