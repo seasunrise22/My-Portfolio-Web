@@ -58,6 +58,9 @@ session_start(); //세션변수 사용전에 session_start()를 사용해야 한
 
 if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
 // 현재 세션 연결이 되어 있지 않은 상태라면, 로그인 form 태그 보여줌.
+<!--<form action="./account/login_ok.php" method="post">				
+	<table style='display: inline-block;''>
+	... --> <!-- 아이디, 비밀번호 입력 테이블 -->
 <?php } else { // 현재 세션 연결이 되어 있는 상태라면(로그인 된 상태)
 	$user_id = $_SESSION['login_id'];
 	$user_nick = $_SESSION['login_nick'];
