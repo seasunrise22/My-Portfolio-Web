@@ -36,11 +36,7 @@ function workChange(idx) {
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
 		strHTML += "<img src='images/work_wanted02.png'>";
-		strHTML += "<img src='images/work_wanted03.png'>";
-		strHTML += "<img src='images/work_wanted04.png'>";
-		strHTML += "<img src='images/work_wanted05.png'>";
-		strHTML += "<img src='images/work_wanted06.png'>";
-		strHTML += "<img src='images/work_wanted07.png'>";
+		...
 		activitySection.innerHTML = strHTML;
 		break;
 		
@@ -49,13 +45,10 @@ function workChange(idx) {
 		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
-		strHTML += "<img src='images/work_android03.jpg' style='width:360px;height:640px;'>&nbsp";
-		strHTML += "<img src='images/work_android04.jpg' style='width:389px;height:179px;'><br>";
-		strHTML += "<img src='images/work_android05.png' style='width:360px;height:640px;'>&nbsp";
-		strHTML += "<img src='images/work_android06.jpg' style='width:360px;height:640px;'><br>";
-		strHTML += "<img src='images/work_android07.jpg' style='width:360px;height:640px;'>";
+		...
 		activitySection.innerHTML = strHTML;
 		break;
+		...
  ```
 
 ## Screenshots
