@@ -53,7 +53,6 @@ function workChange(idx) {
  
 ***php session을 이용한 로그인 관리***
 ```php
-<?php
 session_start(); //세션변수 사용전에 session_start()를 사용해야 한다.
 
 if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
@@ -73,7 +72,6 @@ if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
     echo "<p><strong>$user_nick</strong>($user_id) 님 로그인 되셨습니다.";
     echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
 }
-?>
 ```
 
 ## Screenshots
