@@ -50,7 +50,8 @@ function workChange(idx) {
 		break;
 		...
  ```
- ***php session을 이용한 로그인 관리***
+ 
+***php session을 이용한 로그인 관리***
 ```php
 <?php
 session_start(); //세션변수 사용전에 session_start()를 사용해야 한다.
