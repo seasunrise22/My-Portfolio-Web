@@ -18,8 +18,44 @@ HTML과 CSS로 레이아웃을 구성하고 JavaScript와 jQuery를 이용해 �
 - DB : MySQL, phpMyAdmin 
 
 ## Code Preview
-***Sample***
-```C#
+***JavaScript를 이용한 innerHTML 전환***
+```html
+<li class="aside-listText"><p><a href="javascript:workChange(1);">역할 카드게임 'WANTED'</a></p></li>
+<li class="aside-listText"><p><a href="javascript:workChange(2);">GPS를 활용한 운동관리 어플리케이션</a></p></li>
 ```
+```JavaScript
+// 선택한 작품에 맞는 작품 설명 페이지 호출 함수
+function workChange(idx) {
+	var strHTML = "";
+	var activitySection = document.getElementById("work-section");
+
+	switch (idx) 
+	{
+		// WANTED
+		case 1:
+		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
+		strHTML += "<img src='images/work_wanted01.png'>";
+		strHTML += "<img src='images/work_wanted02.png'>";
+		strHTML += "<img src='images/work_wanted03.png'>";
+		strHTML += "<img src='images/work_wanted04.png'>";
+		strHTML += "<img src='images/work_wanted05.png'>";
+		strHTML += "<img src='images/work_wanted06.png'>";
+		strHTML += "<img src='images/work_wanted07.png'>";
+		activitySection.innerHTML = strHTML;
+		break;
+		
+		// 운동관리 어플
+		case 2:
+		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
+		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
+		strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
+		strHTML += "<img src='images/work_android03.jpg' style='width:360px;height:640px;'>&nbsp";
+		strHTML += "<img src='images/work_android04.jpg' style='width:389px;height:179px;'><br>";
+		strHTML += "<img src='images/work_android05.png' style='width:360px;height:640px;'>&nbsp";
+		strHTML += "<img src='images/work_android06.jpg' style='width:360px;height:640px;'><br>";
+		strHTML += "<img src='images/work_android07.jpg' style='width:360px;height:640px;'>";
+		activitySection.innerHTML = strHTML;
+		break;
+ ```
 
 ## Screenshots
