@@ -58,7 +58,7 @@ session_start(); //세션변수 사용전에 session_start()를 사용해야 한
 
 if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
 // 현재 세션 연결이 되어 있지 않은 상태라면 = id, pw 입력 테이블 보여줌.
-<!-- 실제 코드는 주석 처리 하지 않음.
+<!-- ReadMe 파일 들여쓰기 문제로 임의 주석 처리. 실제 코드는 주석 처리 하지 않음.
 <form action="./account/login_ok.php" method="post">				
 	<table style='display: inline-block;''>
 	... 
