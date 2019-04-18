@@ -57,6 +57,7 @@ function workChange(idx) {
 session_start(); //세션변수 사용전에 session_start()를 사용해야 한다.
 
 if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
+```html
 <form action="./account/login_ok.php" method="post">				
 	<table style='display: inline-block;''> <!-- 아이디, 비밀번호 입력 테이블 -->
 		<tr>
@@ -67,6 +68,8 @@ if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
 		</tr>
 	</table>
 </form>
+```
+```php
 <?php } else {
 	$user_id = $_SESSION['login_id'];
 	$user_nick = $_SESSION['login_nick'];
