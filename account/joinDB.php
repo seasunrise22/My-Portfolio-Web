@@ -7,8 +7,8 @@
 		<?php
 		// DB연결용 세팅		
 		$dsn = 'mysql:host=localhost;dbname=seasunrise22'; // $dsn = 'mysql:host=localhost;dbname=database_portfolio';
-		$username = 'for github'; // 
-		$password = 'for github'; // 
+		$username = 'seasunrise22';
+		$password = 'mydbpw123';
 		$options = array(
 			PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
 		);

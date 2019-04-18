@@ -22,20 +22,8 @@ function workChange(idx) {
 		activitySection.innerHTML = strHTML;
 		break;
 		
-<<<<<<< HEAD
 		// 운동관리 어플
 		case 2:
-=======
-		// 가상은행
-		case 3:
-		strHTML += "<h2>자바 Swing으로 구현한 가상은행 윈도우 어플리케이션</h2>";
-		strHTML += "<img src='images/work_db01.png'>";
-		activitySection.innerHTML = strHTML;
-		break;
-		
-		// 운동관리 어플
-		case 4:
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
