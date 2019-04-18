@@ -69,9 +69,9 @@ if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
 </form>
 <?php } else {
 	$user_id = $_SESSION['login_id'];
-  $user_nick = $_SESSION['login_nick'];
-  echo "<p><strong>$user_nick</strong>($user_id) 님 로그인 되셨습니다.";
-  echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
+	$user_nick = $_SESSION['login_nick'];
+	echo "<p><strong>$user_nick</strong>($user_id) 님 로그인 되셨습니다.";
+	echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
 }
 ?>
 ```
