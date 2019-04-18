@@ -40,7 +40,7 @@ function workChange(idx) {
 		activitySection.innerHTML = strHTML;
 		break;
 		
-		// 운동관리 어플
+		// 운동관리
 		case 2:
 		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
