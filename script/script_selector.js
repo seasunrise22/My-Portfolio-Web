@@ -9,22 +9,8 @@ function workChange(idx) {
 
 	switch (idx) 
 	{
-<<<<<<< HEAD
 		// WANTED
 		case 1:
-=======
-		// 모두의 미니게임
-		case 1:
-		strHTML += "<h2>Javascript와 JSP로 구현한 미니게임 웹페이지</h2>";
-		strHTML += "<img src='images/work_web01.jpg'>";
-		strHTML += "<img src='images/work_web02.png'>";
-		strHTML += "<img src='images/work_web03.png'>";
-		activitySection.innerHTML = strHTML;
-		break;
-
-		// WANTED
-		case 2:
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
 		strHTML += "<img src='images/work_wanted02.png'>";
