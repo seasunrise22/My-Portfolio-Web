@@ -73,6 +73,7 @@ if(!isset($_SESSION['login_id']) && !isset($_SESSION['login_pw'])) { ?>
   echo " <a href=\"./account/logout.php\">[로그아웃]</p>";
 }
 ?>
+
 ```
 
 ## Screenshots
