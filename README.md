@@ -26,12 +26,12 @@ HTML과 CSS로 레이아웃을 구성하고 JavaScript와 jQuery를 이용해 �
 ```javascript
 // 선택한 작품에 맞는 작품 설명 페이지 호출 함수
 function workChange(idx) {
-   	var strHTML = "";
-	var activitySection = document.getElementById("work-section");
+    var strHTML = "";
+    var activitySection = document.getElementById("work-section");
 
-	switch (idx) 
-	{
-		// WANTED
+    switch (idx) 
+    {
+    	// WANTED
 		case 1:
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
