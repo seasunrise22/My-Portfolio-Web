@@ -80,7 +80,11 @@ $(document).ready(function() {
 				<ul style="list-style: none;">
 					<li>2017년 8월 경상대학교 컴퓨터과학과 졸업</li>
 					<li>010-5497-3474</li>
+<<<<<<< HEAD
 					<li>seasunrise22@naver.com</li>					
+=======
+					<li>seasunrise22@gmail.com</li>
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 				</ul>
 			</div>
 			<img id="img-id" src="images/id2.jpg">

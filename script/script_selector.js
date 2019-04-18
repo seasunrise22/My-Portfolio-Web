@@ -9,8 +9,22 @@ function workChange(idx) {
 
 	switch (idx) 
 	{
+<<<<<<< HEAD
 		// WANTED
 		case 1:
+=======
+		// 모두의 미니게임
+		case 1:
+		strHTML += "<h2>Javascript와 JSP로 구현한 미니게임 웹페이지</h2>";
+		strHTML += "<img src='images/work_web01.jpg'>";
+		strHTML += "<img src='images/work_web02.png'>";
+		strHTML += "<img src='images/work_web03.png'>";
+		activitySection.innerHTML = strHTML;
+		break;
+
+		// WANTED
+		case 2:
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
 		strHTML += "<img src='images/work_wanted02.png'>";
@@ -22,8 +36,20 @@ function workChange(idx) {
 		activitySection.innerHTML = strHTML;
 		break;
 		
+<<<<<<< HEAD
 		// 운동관리 어플
 		case 2:
+=======
+		// 가상은행
+		case 3:
+		strHTML += "<h2>자바 Swing으로 구현한 가상은행 윈도우 어플리케이션</h2>";
+		strHTML += "<img src='images/work_db01.png'>";
+		activitySection.innerHTML = strHTML;
+		break;
+		
+		// 운동관리 어플
+		case 4:
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>GPS를 활용한 종합 운동관리 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_android01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_android02.jpg' style='width:360px;height:640px;'><br>";
@@ -36,7 +62,11 @@ function workChange(idx) {
 		break;
 
 		// 잠금화면 Your Sentence
+<<<<<<< HEAD
 		case 3:
+=======
+		case 5:
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>스마트폰 잠금화면을 꾸밀 수 있는 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_sentence01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_sentence02.png' style='width:360px;height:640px;'><br>";
@@ -46,7 +76,11 @@ function workChange(idx) {
 		break;
 
 		// 독수리 피하기!
+<<<<<<< HEAD
 		case 4:
+=======
+		case 6:
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>Unity엔진으로 구현한 피하기 게임</h2>";
 		strHTML += "<img src='images/work_eagle01.png' style='width:360px;height:640px;'><br>";
 		strHTML += "<img src='images/work_eagle02.png' style='width:360px;height:640px;'><br>";
@@ -55,7 +89,11 @@ function workChange(idx) {
 		break;
 
 		// Be patient
+<<<<<<< HEAD
 		case 5:
+=======
+		case 7:
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>스마트폰 화면을 켠 횟수를 카운팅 해주는 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_bepatient01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_bepatient02.png' style='width:360px;height:640px;'><br>";
@@ -65,6 +103,7 @@ function workChange(idx) {
 		break;
 
 		default:
+<<<<<<< HEAD
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
 		strHTML += "<img src='images/work_wanted02.png'>";
@@ -73,6 +112,12 @@ function workChange(idx) {
 		strHTML += "<img src='images/work_wanted05.png'>";
 		strHTML += "<img src='images/work_wanted06.png'>";
 		strHTML += "<img src='images/work_wanted07.png'>";
+=======
+		strHTML += "<h2>Javascript와 JSP로 구현한 미니게임 웹페이지</h2>";
+		strHTML += "<img src='images/work_web01.jpg'>";
+		strHTML += "<img src='images/work_web02.png'>";
+		strHTML += "<img src='images/work_web03.png'>";
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		activitySection.innerHTML = strHTML;
 	}
 }

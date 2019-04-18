@@ -33,6 +33,7 @@
 		float: left;
 	}
 
+<<<<<<< HEAD
 	#goto-github {
 		width: 1264px; /* 선 굵기 차감 */
 		border: 3px double black;
@@ -41,6 +42,8 @@
 		padding: 5px;
 	}
 
+=======
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 	/* section 재정의 */
 	#work-section {
 		width: 894px;
@@ -106,6 +109,7 @@ $(document).ready(function() {
 			</nav>
 		</header>
 
+<<<<<<< HEAD
 		<!-- GitHub 주소 넣을 상자 -->
 		<div id="goto-github">
 			<span style="color:red">
@@ -113,22 +117,35 @@ $(document).ready(function() {
 			</span>
 		</div>
 
+=======
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		<!-- WORK 페이지의 섹션 -->
 		<!-- aside - WORK 페이지 좌측 메뉴바 -->
 		<aside>
 			<h1 class="aside-titleText">작품목록</h1>
 			<br>
 			<ul>
+<<<<<<< HEAD
 				<li class="aside-listText"><p><a href="javascript:workChange(1);">역할 카드게임 'WANTED'</a></p></li>
 				<li class="aside-listText"><p><a href="javascript:workChange(2);">GPS를 활용한 운동관리 어플리케이션</a></p></li>
 				<li class="aside-listText"><p><a href="javascript:workChange(3);">잠금화면 문구 세팅 Your Sentence</a></p></li>
 				<li class="aside-listText"><p><a href="javascript:workChange(4);">아케이드 게임 독수리 피하기!</a></p></li>
 				<li class="aside-listText"><p><a href="javascript:workChange(5);">폰 중독방지 앱 Be patient</a></p></li>
+=======
+				<li class="aside-listText"><p><a href="javascript:workChange(1);">모두의 미니게임</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(2);">역할 카드게임 'WANTED'</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(3);">가상은행 예금관리 프로그램</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(4);">GPS를 활용한 운동관리 어플리케이션</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(5);">잠금화면 문구 세팅 Your Sentence</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(6);">아케이드 게임 독수리 피하기!</a></p></li>
+				<li class="aside-listText"><p><a href="javascript:workChange(7);">폰 중독방지 앱 Be patient</a></p></li>
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 			</ul>
 		</aside>
 
 		<!-- WORK 페이지 우측 작품 나타낼 페이지 -->
 		<div id="work-section">
+<<<<<<< HEAD
 			<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>
 			<img src='images/work_wanted01.png'>
 			<img src='images/work_wanted02.png'>
@@ -137,6 +154,12 @@ $(document).ready(function() {
 			<img src='images/work_wanted05.png'>
 			<img src='images/work_wanted06.png'>
 			<img src='images/work_wanted07.png'>	
+=======
+			<h2>Javascript와 JSP로 구현한 미니게임 웹페이지</h2>
+			<img src='images/work_web01.jpg'>
+			<img src='images/work_web02.png'>
+			<img src='images/work_web03.png'>				
+>>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		</div>
 
 		<!-- footer -->
