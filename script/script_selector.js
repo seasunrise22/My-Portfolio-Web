@@ -36,25 +36,15 @@ function workChange(idx) {
 		break;
 
 		// 잠금화면 Your Sentence
-<<<<<<< HEAD
-		case 3:
-=======
-		case 5:
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
+		case 3:	
 		strHTML += "<h2>스마트폰 잠금화면을 꾸밀 수 있는 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_sentence01.png' style='width:360px;height:640px;'>&nbsp";
-		strHTML += "<img src='images/work_sentence02.png' style='width:360px;height:640px;'><br>";
-		strHTML += "<img src='images/work_sentence03.png' style='width:360px;height:640px;'>&nbsp";
-		strHTML += "<img src='images/work_sentence04.png' style='width:360px;height:640px;'>";
+		strHTML += "<img src='images/work_sentence02.png' style='width:360px;height:640px;'>";
 		activitySection.innerHTML = strHTML;
 		break;
 
 		// 독수리 피하기!
-<<<<<<< HEAD
-		case 4:
-=======
-		case 6:
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
+		case 4:		
 		strHTML += "<h2>Unity엔진으로 구현한 피하기 게임</h2>";
 		strHTML += "<img src='images/work_eagle01.png' style='width:360px;height:640px;'><br>";
 		strHTML += "<img src='images/work_eagle02.png' style='width:360px;height:640px;'><br>";
@@ -63,11 +53,7 @@ function workChange(idx) {
 		break;
 
 		// Be patient
-<<<<<<< HEAD
 		case 5:
-=======
-		case 7:
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		strHTML += "<h2>스마트폰 화면을 켠 횟수를 카운팅 해주는 안드로이드 앱</h2>";
 		strHTML += "<img src='images/work_bepatient01.png' style='width:360px;height:640px;'>&nbsp";
 		strHTML += "<img src='images/work_bepatient02.png' style='width:360px;height:640px;'><br>";
@@ -77,7 +63,6 @@ function workChange(idx) {
 		break;
 
 		default:
-<<<<<<< HEAD
 		strHTML += "<h2>Unity엔진과 C#으로 구현한 카드배틀게임</h2>";
 		strHTML += "<img src='images/work_wanted01.png'>";
 		strHTML += "<img src='images/work_wanted02.png'>";
@@ -86,12 +71,6 @@ function workChange(idx) {
 		strHTML += "<img src='images/work_wanted05.png'>";
 		strHTML += "<img src='images/work_wanted06.png'>";
 		strHTML += "<img src='images/work_wanted07.png'>";
-=======
-		strHTML += "<h2>Javascript와 JSP로 구현한 미니게임 웹페이지</h2>";
-		strHTML += "<img src='images/work_web01.jpg'>";
-		strHTML += "<img src='images/work_web02.png'>";
-		strHTML += "<img src='images/work_web03.png'>";
->>>>>>> e689a7334815d6809036c8a1f420703251546c0f
 		activitySection.innerHTML = strHTML;
 	}
 }
